@@ -1,13 +1,14 @@
+.display-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .display-flex-center{
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
-.text-align-left{
-  text-align: left;
-}
-.display-flex{
+.display-flex-start{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
 }
