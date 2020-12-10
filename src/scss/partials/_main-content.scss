@@ -1,0 +1,61 @@
+// Main
+.main-content {
+  h2 {
+    font-size: $font-h2;
+    }
+}
+.jumbotron-section {
+  background: url('../../images/intro.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+    .jumbotron {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 80px;
+      margin: 0 auto;
+      color: $text-prim-col;
+      p {
+          margin: 20px 0 35px;
+          width: 75%;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        color: $text-prim-col;
+        margin-bottom: 50px;
+        text-decoration: none;
+        img {
+          margin-right: 10px;
+          width: 40px;
+        }
+      }
+    }
+}
+
+// Slider
+.slider-section{
+  background: $back-header;
+  color: $primary-col;
+}
+.slider {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0 50px;
+  margin: 0 auto;
+  p {
+    margin: 40px 0;
+    line-height: 1.5
+  }
+}
+
+// Slider-bottom
+.slider-bottom {
+    height: 600px;
+    background: url('../../images/art.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

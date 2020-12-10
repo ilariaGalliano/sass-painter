@@ -26,12 +26,19 @@ body {
   justify-content: flex-start;
 }
 
+.text-center {
+  text-align: center;
+}
+
 nav {
   padding: 10px;
 }
 nav li {
   list-style: none;
   padding: 0 20px;
+}
+nav li img {
+  margin-right: 20px;
 }
 nav a {
   text-decoration: none;
@@ -76,4 +83,63 @@ nav a {
   color: #555555;
   text-transform: uppercase;
   font-size: 16px;
+}
+
+.main-content h2 {
+  font-size: 30px;
+}
+
+.jumbotron-section {
+  background: url("../../images/intro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.jumbotron-section .jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  color: #fff;
+}
+.jumbotron-section .jumbotron p {
+  margin: 20px 0 35px;
+  width: 75%;
+}
+.jumbotron-section .jumbotron a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+.jumbotron-section .jumbotron a img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.slider-section {
+  background: #e6e6e6;
+  color: #101010;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0 50px;
+  margin: 0 auto;
+}
+.slider p {
+  margin: 40px 0;
+  line-height: 1.5;
+}
+
+.slider-bottom {
+  height: 600px;
+  background: url("../../images/art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
