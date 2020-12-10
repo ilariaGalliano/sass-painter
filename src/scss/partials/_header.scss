@@ -1,0 +1,36 @@
+nav{
+    padding: 10px;
+  li{
+    list-style: none;
+    padding: 0 20px;
+  }
+  a{
+    text-decoration: none;
+    color: $text-prim-col;
+  }
+}
+
+.header-top{
+  width: 100%;
+  height: 400px;
+  background-image: url("../../images/hero.jpg");
+  background-position: top center;
+    li{
+      list-style: none;
+      padding: 10px 0;
+    }
+    a{
+      text-decoration: none;
+      color: $text-prim-col;
+    }
+    .header-top-left{
+      margin-left: 348px;
+      width: 52%;
+    }
+    .header-top-right{
+      background: rgba($primary-col, 0.7);
+      width: 30%;
+      padding: 20px;
+      margin-right: 100px;
+    }
+}

@@ -1,4 +1,10 @@
 body{
   background: $primary-col;
   color: $text-prim-col;
+  font-family: $primary-font-family;
+}
+
+.container-painter{
+  width: 1140px;
+  margin: 0 auto;
 }

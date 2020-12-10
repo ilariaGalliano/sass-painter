@@ -1,4 +1,63 @@
 body {
   background: #101010;
   color: #fff;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container-painter {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.display-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  padding: 10px;
+}
+nav li {
+  list-style: none;
+  padding: 0 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-top {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../images/hero.jpg");
+  background-position: top center;
+}
+.header-top li {
+  list-style: none;
+  padding: 10px 0;
+}
+.header-top a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-top .header-top-left {
+  margin-left: 348px;
+  width: 52%;
+}
+.header-top .header-top-right {
+  background: rgba(16, 16, 16, 0.7);
+  width: 30%;
+  padding: 20px;
+  margin-right: 100px;
 }
