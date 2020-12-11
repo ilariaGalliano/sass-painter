@@ -9,7 +9,6 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100vh;
     .jumbotron {
       display: flex;
       flex-direction: column;
@@ -32,30 +31,23 @@
           width: 40px;
         }
       }
+      .images {
+        position: relative;
+        img {
+          &.img-screen {
+            position: absolute;
+            top: 48.5%;
+            transform: translateY(-50%);
+            width: 1080px;
+            max-width: 100%;
+            bottom: 0;
+            z-index: 2;
+            }
+            &.img-face {
+            vertical-align: bottom;
+            width: 91%;
+            }
+        }
+      }
     }
-}
-
-// Slider
-.slider-section{
-  background: $back-header;
-  color: $primary-col;
-}
-.slider {
-  display: flex;
-  flex-direction: column;
-  padding: 70px 0 50px;
-  margin: 0 auto;
-  p {
-    margin: 40px 0;
-    line-height: 1.5
-  }
-}
-
-// Slider-bottom
-.slider-bottom {
-    height: 600px;
-    background: url('../../images/art.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }

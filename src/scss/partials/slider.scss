@@ -1,0 +1,53 @@
+
+// Slider
+.slider-section{
+  background: $back-header;
+  color: $primary-col;
+  .slider-img-i{
+    position: relative;
+  }
+  .slider {
+    padding: 70px 0 50px;
+    margin: 0 auto;
+    p {
+      margin: 40px 0;
+      line-height: 1.5
+    }
+    img{
+      width: 900px;
+      max-width: 100%;
+    }
+    .slider-i {
+          i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            color: $text-prim-col;
+            background: $col-slider-i;
+            cursor: pointer;
+            &.left-i {
+              left: 15%;
+            }
+            &.right-i {
+              right: 15%;
+           }
+          }
+    }
+  }
+}
+
+// Slider-bottom
+.slider-bottom {
+    height: 600px;
+    background: url('../../images/art.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -2,14 +2,18 @@ nav{
     padding: 10px;
   li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 16px;
     img{
-      margin-right: 20px;
+      margin-right: 10px;
     }
   }
   a{
     text-decoration: none;
     color: $text-prim-col;
+  }
+  i{
+    font-size: $fontsize-chevron;
+    padding-left: 6px;
   }
 }
 
@@ -29,6 +33,10 @@ nav{
     .header-top-left{
       margin-left: 348px;
       width: 52%;
+          i{
+            font-size: $fontsize-chevron;
+            padding-right: 6px;
+          }
     }
     .header-top-right{
       background: rgba($primary-col, 0.7);
