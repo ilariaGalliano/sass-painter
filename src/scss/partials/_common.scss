@@ -3,8 +3,18 @@ body{
   color: $text-prim-col;
   font-family: $primary-font-family;
 }
-
 .container-painter{
   width: 1140px;
   margin: 0 auto;
+}
+.btn-blue{
+  background: #28acff;
+  border: 1px solid #28acff;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px 7px;
+  display: block;
+  margin: 20px 0;
 }
