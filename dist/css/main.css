@@ -46,7 +46,7 @@ body {
   text-transform: uppercase;
 }
 
-.padding-flexible-section {
+.padding-section {
   padding: 80px 0 60px;
 }
 
@@ -102,12 +102,18 @@ nav i {
   padding: 20px;
   margin-right: 60px;
 }
+.header-top .header-top-right h3 {
+  font-size: 26px;
+}
+.header-top .header-top-right h4 {
+  font-size: 20px;
+}
 .header-top .header-top-right span {
   color: #666666;
 }
 .header-top .header-top-right .white-box {
   width: 97%;
-  height: 125px;
+  height: 135px;
   padding: 10px 5px 22px;
   background: #fff;
   color: #101010;
@@ -325,4 +331,34 @@ nav i {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.tools-section {
+  background: #e6e6e6;
+  color: #101010;
+}
+.tools-section h2 {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 34px;
+}
+.tools-section li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+.tools-section li img {
+  width: 230px;
+  cursor: pointer;
+}
+.tools-section li img:hover {
+  transform: scale(1.2);
+}
+.tools-section li span {
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+  bottom: 10%;
+  left: 36%;
 }

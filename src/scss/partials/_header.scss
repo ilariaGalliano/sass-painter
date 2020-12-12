@@ -48,12 +48,18 @@ nav{
       width: 30%;
       padding: 20px;
       margin-right: 60px;
+      h3{
+        font-size: 26px;
+      }
+      h4{
+        font-size: 20px;
+      }
       span{
         color: $col-gray;
       }
       .white-box{
         width: 97%;
-        height: 125px;
+        height: 135px;
         padding: 10px 5px 22px;
         background: $text-prim-col;
         color: $primary-col;

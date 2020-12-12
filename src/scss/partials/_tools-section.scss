@@ -1,0 +1,29 @@
+.tools-section{
+  background: $back-header;
+  color: $primary-col;
+  h2{
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 34px;
+  }
+  li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    img{
+      width: 230px;
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+    span{
+      position: absolute;
+      color: $text-prim-col;
+      font-size: 18px;
+      bottom: 10%;
+      left: 36%;
+    }
+  }
+}
