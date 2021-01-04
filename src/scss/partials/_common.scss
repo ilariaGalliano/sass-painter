@@ -5,6 +5,9 @@ body{
   color: $text-prim-col;
   font-family: $primary-font-family;
 }
+a{
+  cursor: pointer;
+}
 .container-painter{
   width: 1140px;
   margin: 0 auto;
@@ -24,7 +27,4 @@ body{
       background-color: rgba($blue-light, 0.8);
       outline: none;
     }
-}
-a{
-  cursor: pointer;
 }
