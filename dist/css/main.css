@@ -19,6 +19,15 @@ body {
   padding: 10px 30px 7px;
   display: block;
   margin: 20px 0;
+  cursor: pointer;
+}
+.btn-blue:hover {
+  background-color: rgba(40, 172, 255, 0.8);
+  outline: none;
+}
+
+a {
+  cursor: pointer;
 }
 
 .display-flex {
@@ -36,6 +45,16 @@ body {
 .display-flex-start {
   display: flex;
   justify-content: flex-start;
+}
+
+.display-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.display-flex-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 .text-center {
@@ -107,14 +126,18 @@ nav i {
 }
 .header-top .header-top-right h4 {
   font-size: 20px;
+  margin: 0;
 }
 .header-top .header-top-right span {
   color: #666666;
 }
+.header-top .header-top-right .btn-blue {
+  margin-bottom: 30px;
+}
 .header-top .header-top-right .white-box {
   width: 97%;
   height: 135px;
-  padding: 10px 5px 22px;
+  padding: 5px 5px 5px 5px;
   background: #fff;
   color: #101010;
 }
@@ -131,6 +154,10 @@ nav i {
   text-align: center;
   cursor: pointer;
   margin: 0 40px 50px;
+}
+.header-top .btn-gray:hover {
+  background-color: rgba(102, 102, 102, 0.7);
+  outline: none;
 }
 .header-top .btn-gray small {
   text-transform: capitalize;
@@ -159,7 +186,7 @@ nav i {
   background: #e6e6e6;
   padding: 20px;
 }
-.header-bottom li {
+.header-bottom .list-bottom {
   list-style: none;
   padding: 0 20px;
 }
@@ -361,4 +388,89 @@ nav i {
   font-size: 18px;
   bottom: 10%;
   left: 36%;
+}
+
+.additional-section {
+  width: 100%;
+  height: 600px;
+  background-image: url("../../images/brushpacks-bg.jpg");
+  background-position: top center;
+  color: #101010;
+  font-size: 18px;
+  text-align: center;
+}
+.additional-section h2 {
+  font-weight: 400;
+}
+.additional-section a {
+  color: #28acff;
+  text-decoration: none;
+}
+.additional-section .add-left,
+.additional-section .add-right {
+  width: 30%;
+  height: 200px;
+  background-color: #fff;
+  padding: 60px 40px 80px;
+}
+.additional-section .add-left {
+  margin-right: 2%;
+}
+
+footer {
+  width: 100%;
+  height: 390px;
+  background: #e6e6e6;
+}
+footer a {
+  color: #555555;
+  text-decoration: none;
+  font-size: 14px;
+}
+footer li {
+  list-style: none;
+  padding: 5px 0;
+}
+footer h4 {
+  color: #101010;
+}
+footer .ul-social {
+  margin-top: 50px;
+}
+footer .ul-social li .red {
+  color: red;
+}
+footer .ul-social li .blue {
+  color: #3b5998;
+}
+footer .ul-social li .blue-light {
+  color: #28acff;
+}
+footer .ul-social li .orange {
+  color: #ff8d00;
+}
+footer .ul-social i {
+  margin-right: 15px;
+  font-size: 30px;
+}
+footer .bottom-footer .partners ul {
+  padding-top: 30px;
+  width: 30%;
+}
+footer .bottom-footer .partners ul li {
+  margin-right: 30px;
+}
+footer .bottom-footer .copyright {
+  width: 70%;
+}
+footer .bottom-footer .copyright ul li {
+  margin-right: 20px;
+  font-size: 12px;
+}
+footer .bottom-footer .copyright ul li:first-child {
+  padding-left: 90px;
+}
+footer .bottom-footer .copyright p {
+  font-size: 12px;
+  margin-left: 20px;
 }

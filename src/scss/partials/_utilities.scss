@@ -1,3 +1,5 @@
+// Utilities 
+
 .display-flex{
   display: flex;
   justify-content: center;
@@ -11,6 +13,14 @@
 .display-flex-start{
   display: flex;
   justify-content: flex-start;
+}
+.display-flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.display-flex-between{
+  display: flex;
+  justify-content: space-between;
 }
 .text-center{
   text-align: center;

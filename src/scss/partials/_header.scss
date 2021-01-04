@@ -1,3 +1,5 @@
+// Header
+
 nav{
     padding: 10px;
   li{
@@ -17,6 +19,8 @@ nav{
   }
 }
 
+
+// Header-top
 .header-top{
   width: 100%;
   background-image: url("../../images/hero.jpg");
@@ -53,18 +57,22 @@ nav{
       }
       h4{
         font-size: 20px;
+        margin: 0;
       }
       span{
         color: $col-gray;
       }
+      .btn-blue{
+        margin-bottom: 30px;
+      }
       .white-box{
         width: 97%;
         height: 135px;
-        padding: 10px 5px 22px;
+        padding: 5px 5px 5px 5px;
         background: $text-prim-col;
         color: $primary-col;
           a{
-            color: #28acff;
+            color: $blue-light;
           }
       }
     }
@@ -78,13 +86,15 @@ nav{
         text-align: center;
         cursor: pointer;
         margin: 0 40px 50px;
-
+          &:hover{
+            background-color: rgba($col-gray, 0.7);
+            outline: none;
+          }
          small {
            text-transform: capitalize;
            font-size: 12px;
            display: block;
          }
-
          i {
             font-size: 22px;
             position: absolute;
@@ -105,17 +115,24 @@ nav{
     }
 }
 
+
+// Header-bottom
+
 .header-bottom{
   background: $back-header;
   padding: 20px;
-    li{
+    .list-bottom {
       list-style: none;
       padding: 0 20px;
     }
     a{
-      text-decoration: none;
-      color: $col-header-bottom;
-      text-transform: uppercase;
-      font-size: $font-header-bottom;
+       text-decoration: none;
+       color: $col-header-bottom;
+       text-transform: uppercase;
+       font-size: $font-header-bottom;
     }
+    
 }
+    
+
+

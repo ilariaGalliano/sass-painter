@@ -1,3 +1,5 @@
+// General styles
+
 body{
   background: $primary-col;
   color: $text-prim-col;
@@ -8,8 +10,8 @@ body{
   margin: 0 auto;
 }
 .btn-blue{
-  background: #28acff;
-  border: 1px solid #28acff;
+  background: $blue-light;
+  border: 1px solid $blue-light;
   font-size: 15px;
   color: #fff;
   text-transform: uppercase;
@@ -17,4 +19,12 @@ body{
   padding: 10px 30px 7px;
   display: block;
   margin: 20px 0;
+  cursor: pointer;
+    &:hover{
+      background-color: rgba($blue-light, 0.8);
+      outline: none;
+    }
+}
+a{
+  cursor: pointer;
 }
